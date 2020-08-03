@@ -1,1 +1,23 @@
-@import '_component/landing-page/landing-page';
+
+html,
+body {
+  background-color:#e6f9ff;
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  background-image: url(/asset/image/logo2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 5rem;
+  font-size: 30px;
+}
+
+.home-button,
+.my-art-button,
+.contact-button {
+  color: rgb(245, 241, 245);
+  text-decoration: initial;
+  padding-left: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
