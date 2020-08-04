@@ -2,7 +2,7 @@ doctype html
 html(lang="en")
   head
     title Welcome to my Art Gallery
-    meta(name="description", content="This is my Art Galerry")
+    meta(name="description", content="This is my Art Gallery")
     link(rel="stylesheet", href="style.css")
     //- meta(content="Simple pug (jade) starter aimed to quickly deliver HTML & CSS projects" name="description")
     //- this checks to see the the "embed" property is set to "true"
@@ -10,13 +10,19 @@ html(lang="en")
     //- if config.entry.css.embed
     //-   link(rel="stylesheet" href=`${embedPath}` embed)
   body
-    .navigation
+    .navigation-top
       a.home-button(href="https://www.google.com") Home
       a.my-art-button(href="https://www.google.com") My Art
       a.contact-button(href="https://www.google.com") Contact 
     .landing-page
-      h1 All from Zerooo
-      h2 Here I will display all my creations
+      h1 ALL MY ARTWORKS ARE 
+      h2 Inspired By Moments Of Life
+      p I am an amateur artist expressing feelings of the moments in life through my paintings. Using either oil or acrylic vibrant colours in an unrepeatable mixing, my paintings are UNIQUE and ORIGINAL. As I wanted to give the opportunity of sharing my creations, I have made a replica of my original on a larger scale in a LIMITED number.
+    .gallery
+      a.photo-gallery(href="") SEE GALLERY
+    .navigation-bottom
+      a.date-button(href="") @ 2020 by MC
+      a.facebook-button(href="https://www.facebook.com/mihaela.chetran.7") f
 
     //- if config.entry.css.external
     //-   link(rel="stylesheet", href=`${baseUrl}style.css`)
